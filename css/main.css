@@ -180,9 +180,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -267,6 +267,7 @@ textarea {
   --purple: #f9eee7;
   --black: #3f3f3f;
 }
+
 body {
   background-color: var(--purple);
   font-family: Helvetica;
@@ -290,6 +291,7 @@ body {
   margin: 100px auto;
 
 }
+
 .info-content ul {
 
 }
@@ -338,10 +340,15 @@ body {
 .flex {
   display: flex;
 }
-.mr-20  {
+
+.stat-img {
+  max-width: 100%;
+}
+
+.mr-20 {
   margin-right: 20px;
 }
 
-.ml-20  {
+.ml-20 {
   margin-left: 20px;
 }
